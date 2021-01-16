@@ -44,11 +44,12 @@ If we are looking at ***recall* alone**, **Naive Bayes becomes the most interest
 
 **Reminder:**
 
-$$precision = \frac{True Positives}{True Positives+False Positives}\quad recall = \frac{True Positives}{True Positives + False Negatives}$$
+- precision = TruePositives / (True Positives + False Positives)
+- recall = TruePositives/ (True Positives + False Negatives)
 
 That's where the F1 score comes into play.
 
-$$F1 = 2*\frac{Precision * Recall}{Precision + Recall}$$
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 
 The F1 score is a type of mean between precision and recall. It is a generic measure of accuracy. And here we find that, indeed, our **Naive Bayes with cross-validation model has a the highest accuracy** out of all the models we tried out with the following final scores:
